@@ -5,4 +5,5 @@ module ru.gb.javafxapp {
 
     opens ru.gb.javafxapp to javafx.fxml;
     exports ru.gb.javafxapp;
+
 }
