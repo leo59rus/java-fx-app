@@ -13,7 +13,7 @@ public class BullAndCowApplication extends Application {
         FXMLLoader fxmlLoader =
                 new FXMLLoader(BullAndCowApplication.class.getResource(
                         "main-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 500, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 520, 340);
         //размер окна
         stage.setTitle("Bulls and Cows Game!");
         stage.setScene(scene);

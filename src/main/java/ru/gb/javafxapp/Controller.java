@@ -79,4 +79,20 @@ public class Controller {
     public void clickExit(ActionEvent actionEvent) {//menu
         System.exit(0);
     }
+
+    public void clickRules() {
+       historyArea.appendText("Правила игры: Машина JAVA " +
+                                      "загадала четырехзначное число.\n" +
+                                      "Отгадай" +
+                                      " 4 цифры " +
+                                      "загаданные машиной JAVA.\n" +
+                                      "При" +
+                                      " угадывании места и цифры " +
+                                      "подсказка выдаст быка,\nпри " +
+                                      "угадывнии цифры не на своём " +
+                                      "месте подсказка выдаст " +
+                                      "корову.\n\nЖелаю удачи в " +
+                                      "этой " +
+                                      "битве!\n\n\n");
+    }
 }//10 step my result

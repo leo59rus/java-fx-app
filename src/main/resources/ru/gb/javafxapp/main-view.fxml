@@ -10,13 +10,15 @@
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
     </padding>
 <MenuBar>
-    <Menu text="File">
+    <Menu text="Menu">
+        <MenuItem text="Rules of the game" onAction="#clickRules"/>
         <MenuItem text="New game" onAction="#clickNewGame"/>
         <MenuItem text="Exit" onAction="#clickExit"/>
 
+
     </Menu>
 </MenuBar>
-    <TextArea fx:id="historyAreu" editable="false" VBox.vgrow="ALWAYS"/>
+    <TextArea fx:id="historyArea" editable="false" VBox.vgrow="ALWAYS"/>
     <HBox spacing="10">
         <TextField fx:id="userAnswer" HBox.hgrow="ALWAYS"/>
         <Button text="Check" defaultButton="true" onAction="#clickCheckButton"/>
