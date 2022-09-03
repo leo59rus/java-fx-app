@@ -44,6 +44,7 @@ public class Game {
 
         guessNum = generateNumber();
         System.out.println(Arrays.toString(guessNum));
+
     }
 
     public BullsAndCowsCount calculateBullsAndCows(String playerNum) {//число
