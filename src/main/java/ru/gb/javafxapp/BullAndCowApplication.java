@@ -19,7 +19,6 @@ public class BullAndCowApplication extends Application {
         stage.setScene(scene);
         stage.show();//показать оконо
     }
-
     public static void main(String[] args) {
         launch();
     }

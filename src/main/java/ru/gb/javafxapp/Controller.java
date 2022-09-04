@@ -68,7 +68,6 @@ public class Controller {
         return answer.getButtonData() == ButtonBar.ButtonData.YES;
 
     }
-
     public void clickNewGame() {//menu
         step = 0;
         historyArea.appendText("\n\n--- Начинаем новую игру" +

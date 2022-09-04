@@ -14,8 +14,6 @@
         <MenuItem text="Rules of the game" onAction="#clickRules"/>
         <MenuItem text="New game" onAction="#clickNewGame"/>
         <MenuItem text="Exit" onAction="#clickExit"/>
-
-
     </Menu>
 </MenuBar>
     <TextArea fx:id="historyArea" editable="false" VBox.vgrow="ALWAYS"/>
