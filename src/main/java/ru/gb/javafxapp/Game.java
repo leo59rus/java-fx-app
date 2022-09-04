@@ -25,7 +25,6 @@ public class Game {
             this.cows = cows;
         }
     }
-
     public String getGuessNum() {
        final StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < guessNum.length; i++) {
